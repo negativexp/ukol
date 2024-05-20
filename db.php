@@ -153,7 +153,7 @@ class Database {
         $lostMatches = 0;
         $tieMatches = 0;
         $wonSets = 0;
-        $lostSets = 0; // Initialize lost sets counter
+        $lostSets = 0;
         if(count($matches) == 0) {
             return null;
         } else {
